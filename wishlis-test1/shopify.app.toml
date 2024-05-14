@@ -3,7 +3,7 @@
 client_id = "afb0608c347be4e5e306021d46c07096"
 name = "wishlis-test1"
 handle = "wishlis-test1"
-application_url = "https://productivity-naked-resume-lightbox.trycloudflare.com"
+application_url = "https://noizless.myshopify.com"
 embedded = true
 
 [build]
@@ -13,13 +13,13 @@ include_config_on_deploy = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+scopes = "read_content,read_files,read_products,write_content,write_files,write_products"
 
 [auth]
 redirect_urls = [
-  "https://productivity-naked-resume-lightbox.trycloudflare.com/auth/callback",
-  "https://productivity-naked-resume-lightbox.trycloudflare.com/auth/shopify/callback",
-  "https://productivity-naked-resume-lightbox.trycloudflare.com/api/auth/callback"
+  "https://noizless.myshopify.com/auth/callback",
+  "https://noizless.myshopify.com/auth/shopify/callback",
+  "https://noizless.myshopify.com/api/auth/callback"
 ]
 
 [webhooks]
